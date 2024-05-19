@@ -7,18 +7,6 @@ CREATE TABLE cat_perfil_riesgo (
     perfil_riesgo VARCHAR(50)
 );
 
--- Tabla para catalogo_activos.csv
-CREATE TABLE catalogo_activos (
-    cod_activo INTEGER PRIMARY KEY,
-    activo VARCHAR(100)
-);
-
--- Tabla para catalogo_banca.csv
-CREATE TABLE catalogo_banca (
-    cod_banca VARCHAR(2) PRIMARY KEY,
-    banca VARCHAR(50)
-);
-
 -- Tabla para historico_aba_macroactivos.csv
 CREATE TABLE historico_aba_macroactivos (
     ingestion_year INTEGER,
