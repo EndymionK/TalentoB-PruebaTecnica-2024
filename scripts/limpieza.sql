@@ -1,13 +1,6 @@
--- Asegurarse de que los datos en 'historico_aba' sean consistentes
--- Eliminar filas con 'None' en 'cod_activo'
-DELETE FROM historico_aba_macroactivos
-WHERE cod_activo IS NULL;
-
-
 -- Normalizar los nombres de 'macroactivo' a mayúsculas
 UPDATE historico_aba_macroactivos
 SET macroactivo = UPPER(macroactivo);
-
 
 -- Crear una vista que muestre el portafolio de cada cliente
 CREATE VIEW vista_portafolio_cliente AS
