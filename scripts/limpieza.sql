@@ -2,6 +2,27 @@
 UPDATE historico_aba_macroactivos
 SET macroactivo = UPPER(macroactivo);
 
+-- Eliminar registros donde month sea menor a 1 o mayor a 12
+DELETE FROM historico_aba_macroactivos
+WHERE month < 1 OR month > 12;
+
+-- Eliminar registros donde 'aba' sea menor a 0
+DELETE FROM historico_aba_macroactivos
+WHERE aba < 0;
+
+-- Eliminar registros donde 'id_sistema_cliente' sea nulo
+DELETE FROM historico_aba_macroactivos
+WHERE id_sistema_cliente IS NULL;
+
+-- Eliminar registros donde ingestion_month sea menor a 1 o mayor a 12
+DELETE FROM historico_aba_macroactivos
+WHERE ingestion_month < 1 OR ingestion_month > 12;
+
+-- Eliminar registros donde ingestion_day sea menor a 1 o mayor a 31
+DELETE FROM historico_aba_macroactivos
+WHERE ingestion_day < 1 OR ingestion_day > 31;
+
+
 -- Crear una vista que muestre el portafolio de cada cliente
 CREATE VIEW vista_portafolio_cliente AS
 SELECT 
