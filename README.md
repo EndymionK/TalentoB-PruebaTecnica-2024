@@ -28,7 +28,7 @@ Este repositorio contiene el proyecto desarrollado para la prueba técnica de Ta
 
 ## Video de Demostración
 
-[Ver video en YouTube](https://www.youtube.com/watch?v=example)
+[Ver video en YouTube](https://youtu.be/4PgquOHNLZY)
 
 ## Conclusiones tecnicas
 
@@ -37,8 +37,6 @@ Este repositorio contiene el proyecto desarrollado para la prueba técnica de Ta
 ## Conclusiones de Negocio
 
 - El sistema analítico desarrollado permite a la gerencia de inversiones de la empresa tomar decisiones informadas y basadas en datos, lo que puede contribuir a mejorar la rentabilidad de las inversiones y a reducir los riesgos asociados a las mismas. Además, al contar con visualizaciones interactivas, se facilita la identificación de patrones y tendencias en los datos, lo que puede ayudar a identificar oportunidades de inversión y a optimizar la gestión de cartera.
-
-- 
 
 ## Areas de Mejora
 
