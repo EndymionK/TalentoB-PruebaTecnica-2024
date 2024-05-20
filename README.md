@@ -4,7 +4,7 @@ Este repositorio contiene el proyecto desarrollado para la prueba técnica de Ta
 
 ## Pipeline de Datos
 
-![Pipeline de Datos](pipeline_Datos.png)
+![Pipeline de Datos](Pipeline_Datos.png)
 
 ## Estructura del Proyecto
 
@@ -32,15 +32,13 @@ Este repositorio contiene el proyecto desarrollado para la prueba técnica de Ta
 
 ## Conclusiones tecnicas
 
-- Se utilizó Python para la limpieza y visualización de los datos.
-- Se utilizó SQL para la creación de las tablas y vistas.
-- Se utilizó Plotly y Dash para la creación de las visualizaciones interactivas.
+- Se integraron herramientas como Python y SQL de manera eficiente, aprovechando las fortalezas de cada una: Python para la limpieza y visualización de datos, y SQL para la gestión de la base de datos y la creación de tablas y vistas. Además, se emplearon librerías como Plotly y Dash para generar visualizaciones interactivas, mejorando así la experiencia del usuario y facilitando la interpretación de los resultados.
 
 ## Conclusiones de Negocio
 
-- Se identificaron los sectores con mayor y menor rentabilidad.
-- Se identificaron los sectores con mayor y menor riesgo.
-- Se identificaron los sectores con mayor y menor liquidez.
+- El sistema analítico desarrollado permite a la gerencia de inversiones de la empresa tomar decisiones informadas y basadas en datos, lo que puede contribuir a mejorar la rentabilidad de las inversiones y a reducir los riesgos asociados a las mismas. Además, al contar con visualizaciones interactivas, se facilita la identificación de patrones y tendencias en los datos, lo que puede ayudar a identificar oportunidades de inversión y a optimizar la gestión de cartera.
+
+- 
 
 ## Areas de Mejora
 
