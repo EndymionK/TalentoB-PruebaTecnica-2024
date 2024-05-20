@@ -38,6 +38,10 @@ Este repositorio contiene el proyecto desarrollado para la prueba técnica de Ta
 
 - El sistema analítico desarrollado permite a la gerencia de inversiones de la empresa tomar decisiones informadas y basadas en datos, lo que puede contribuir a mejorar la rentabilidad de las inversiones y a reducir los riesgos asociados a las mismas. Además, al contar con visualizaciones interactivas, se facilita la identificación de patrones y tendencias en los datos, lo que puede ayudar a identificar oportunidades de inversión y a optimizar la gestión de cartera.
 
+## Funciones Adicionales
+
+- Se añadieron diferentes filtros para la visualización de los datos, lo que permite al usuario personalizar la información que desea visualizar y analizar. Por ejemplo, se pueden filtrar los datos por tipo de banca, por perfil de riesgo, etc.
+
 ## Areas de Mejora
 
 - Automatizar la actualización de los datos.
